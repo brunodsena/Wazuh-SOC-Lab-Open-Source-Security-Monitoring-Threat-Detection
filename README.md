@@ -25,6 +25,7 @@ Bash
 sudo dpkg --purge --force-all wazuh-manager
 sudo rm -rf /var/ossec
 sudo bash wazuh-install.sh -a -o
+
 🛡️ Fase 2: Implementação e Conexão de Agentes
 O sucesso da implementação foi validado pela conexão bem-sucedida de um endpoint Linux ao Manager. O agente foi provisionado para reportar eventos de sistema e integridade de arquivos.
 
